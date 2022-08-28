@@ -10,6 +10,6 @@ public class TestDelegate implements JavaDelegate {
   @Override
   public void execute(DelegateExecution execution) throws Exception {
     log.info("测试节点 - Test Task - 回调, businessKey is {}", execution.getBusinessKey());
-    throw new RuntimeException("测试运行时异常");
+//    throw new RuntimeException("测试运行时异常");
   }
 }

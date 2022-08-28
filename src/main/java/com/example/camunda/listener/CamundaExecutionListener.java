@@ -5,6 +5,7 @@ import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.ExecutionListener;
 import org.springframework.stereotype.Component;
 
+//没配置就没效果
 @Slf4j
 @Component
 public class CamundaExecutionListener implements ExecutionListener {

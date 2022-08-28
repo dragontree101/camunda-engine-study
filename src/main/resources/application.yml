@@ -6,6 +6,8 @@ camunda.bpm:
     id: demo
     password: demo
   run:
+    process-engine-plugins:
+      - plugin-class: com.example.camunda.listener.InvoiceProcessApplication
     # https://docs.camunda.org/manual/latest/user-guide/camunda-bpm-run/#cross-origin-resource-sharing
     cors:
       enabled: true

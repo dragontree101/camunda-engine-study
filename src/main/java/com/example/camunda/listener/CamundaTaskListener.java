@@ -5,6 +5,7 @@ import org.camunda.bpm.engine.delegate.DelegateTask;
 import org.camunda.bpm.engine.delegate.TaskListener;
 import org.springframework.stereotype.Component;
 
+//没配置就没效果
 @Slf4j
 @Component
 public class CamundaTaskListener implements TaskListener {
