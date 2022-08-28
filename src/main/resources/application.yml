@@ -1,6 +1,5 @@
-
-
 camunda.bpm:
+  eventing.history: false
   generic-properties.properties:
     javaSerializationFormatEnabled: true
   admin-user:
